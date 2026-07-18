@@ -1,0 +1,2 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0007695,2027-02-15,Finanzas,expense,Banco Delta,5415.01,2,6889.04,on_time,12,ERP_FIN,Future transaction date,DQ005,2026-03_finanzas.csv,7bdbcbde-91d6-4d2c-ad07-cfecf0d4e743

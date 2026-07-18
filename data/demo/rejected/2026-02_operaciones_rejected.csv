@@ -1,0 +1,3 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0007596,2026-02-22,Operaciones,compliance,,566.23,4,808.02,on_time,12,WMS,Required field is missing,DQ001,2026-02_operaciones.csv,1854baad-7e7c-4fe2-adce-28f711dac2f4
+AST-0007586,2026-02-26,Operaciones,inventory,Hub Litoral,1362.75,48,2539.5,on_time,6,WMS,Duplicate business key,DQ006,2026-02_operaciones.csv,1854baad-7e7c-4fe2-adce-28f711dac2f4

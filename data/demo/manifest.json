@@ -1,0 +1,46 @@
+{
+  "project": "InsightOps Copilot",
+  "company": "Asteria Services",
+  "seed": 20260717,
+  "months": 24,
+  "source_files": 97,
+  "runs": 97,
+  "rows_received": 9243,
+  "rows_accepted": 9048,
+  "rows_rejected": 100,
+  "duplicate_files": 1,
+  "mean_quality_score": 99.86,
+  "metric_results": 240,
+  "anomalies": 66,
+  "latest_period": "2026-06",
+  "report_status": "Draft",
+  "copilot_mode": "deterministic",
+  "sample_answer": {
+    "question": "¿Qué KPI se desviaron este mes?",
+    "answer": "En 2026-06 detecté 5 desvíos prioritarios. Cumplimiento: 83.2% (+4.1% vs. esperado) Gastos: US$ 802,089 (+0.9% vs. esperado) Margen bruto: 78.2% (+7.8% vs. esperado)",
+    "sql": "SELECT metric_id, metric_name, observed_value, expected_value, variation, severity, explanation FROM vw_anomaly_center WHERE period = '2026-06' ORDER BY severity LIMIT 20",
+    "sources": [
+      "vw_anomaly_center"
+    ],
+    "metrics": [
+      "COMPLIANCE",
+      "EXPENSES",
+      "GROSS_MARGIN",
+      "INVOICES",
+      "NET_SALES"
+    ],
+    "period": "2026-06",
+    "facts": [
+      "Cumplimiento: 83.2% (+4.1% vs. esperado)",
+      "Gastos: US$ 802,089 (+0.9% vs. esperado)",
+      "Margen bruto: 78.2% (+7.8% vs. esperado)",
+      "Facturas: 20.0 (-31.0% vs. esperado)",
+      "Ventas netas: US$ 509,748 (-33.6% vs. esperado)"
+    ],
+    "hypotheses": [
+      "Las causas requieren validación con los responsables de cada fuente."
+    ],
+    "warning": "Los desvíos son señales analíticas, no explicaciones causales confirmadas.",
+    "sufficient_data": true
+  }
+}

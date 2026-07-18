@@ -1,0 +1,4 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0005349,2025-09-27,Finanzas,expense,Impuestos,-3625.87,7,7994.17,late,3,ERP_FIN,Negative amount is not allowed,DQ004,2025-09_finanzas.csv,22baa64a-6573-4919-a01f-d6f49eb49d7b
+AST-0005355,2027-02-15,Finanzas,expense,Banco Delta,7613.5,16,7994.17,pending,11,ERP_FIN,Future transaction date,DQ005,2025-09_finanzas.csv,22baa64a-6573-4919-a01f-d6f49eb49d7b
+AST-0005330,2025-09-14,Finanzas,expense,Servicios Centrales,9570.83,6,7994.17,approved,11,ERP_FIN,Duplicate business key,DQ006,2025-09_finanzas.csv,22baa64a-6573-4919-a01f-d6f49eb49d7b

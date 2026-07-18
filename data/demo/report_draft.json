@@ -1,0 +1,44 @@
+{
+  "report_id": "RPT-2026-06",
+  "period": "2026-06",
+  "title": "Monthly Analytics Brief · 2026-06",
+  "executive_summary": "Asteria Services cerró 2026-06 con 6 señales analíticas abiertas y una calidad promedio de 98.83/100.",
+  "kpi_highlights": [
+    "Cumplimiento: 0.83",
+    "Tiempo de ciclo: 7.68",
+    "Gastos: 802,088.58",
+    "Margen bruto: 0.78",
+    "Inventario promedio: 43.71"
+  ],
+  "anomalies": [
+    "Cumplimiento: +4.1% vs. esperado (high)",
+    "Gastos: +0.9% vs. esperado (medium)",
+    "Margen bruto: +7.8% vs. esperado (medium)",
+    "Facturas: -31.0% vs. esperado (medium)",
+    "Ventas netas: -33.6% vs. esperado (medium)",
+    "Pagos: +76.2% vs. esperado (medium)"
+  ],
+  "data_quality": "Quality score promedio: 98.83/100. Las ejecuciones rechazadas no alimentan métricas.",
+  "possible_causes": [
+    "Mix de transacciones o cambios de volumen.",
+    "Cambios de fuente o deterioro de calidad.",
+    "Efectos estacionales; requieren validación humana."
+  ],
+  "recommendations": [
+    "Revisar primero alertas críticas y sus archivos fuente.",
+    "Validar el desvío con el propietario de la métrica.",
+    "Aprobar el reporte solo después de documentar la conclusión."
+  ],
+  "limitations": [
+    "Las anomalías no prueban causalidad.",
+    "El modo determinístico resume únicamente vistas aprobadas."
+  ],
+  "sources": [
+    "vw_metric_monitoring",
+    "vw_anomaly_center",
+    "vw_quality_summary"
+  ],
+  "status": "Draft",
+  "created_at": "2026-07-18T02:47:15.340296+00:00",
+  "approved_by": null
+}

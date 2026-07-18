@@ -1,0 +1,2 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0001318,2024-10-25,Compras,expense,Norte Industrial,-4023.52,14,7193.98,on_time,6,PROCURE,Negative amount is not allowed,DQ004,2024-10_compras.csv,7a3cdffd-ab5e-47df-af66-1f4dcc44f173

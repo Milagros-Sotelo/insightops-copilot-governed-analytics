@@ -1,0 +1,2 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0002218,2027-02-15,Operaciones,cycle_time,Hub Oeste,1750.23,2,1011.24,on_time,9,WMS,Future transaction date,DQ005,2024-12_operaciones.csv,032e17c4-0de3-4745-a14e-19f709dbcaea

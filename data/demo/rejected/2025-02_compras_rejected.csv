@@ -1,0 +1,4 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0002784,2027-02-15,Compras,supplier,Norte Industrial,5270.5,10,3973.94,on_time,4,PROCURE,Future transaction date,DQ005,2025-02_compras.csv,17213686-e02f-4dab-a609-94973e1cb7ca
+AST-0002834,2025-02-06,Compras,supplier,,1621.0,2,3973.94,on_time,4,PROCURE,Required field is missing,DQ001,2025-02_compras.csv,17213686-e02f-4dab-a609-94973e1cb7ca
+AST-0002847,2025-02-20,Compras,expense,Norte Industrial,-4242.25,15,6317.55,late,8,PROCURE,Negative amount is not allowed,DQ004,2025-02_compras.csv,17213686-e02f-4dab-a609-94973e1cb7ca

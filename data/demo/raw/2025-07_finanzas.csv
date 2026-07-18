@@ -1,0 +1,96 @@
+record_id;fecha;area;metric_type;proveedor;importe;cantidad;presupuesto;estado;cycle_days;sistema
+AST-0004561;2025-07-14;Finanzas;expense;Aseguradora Nova;4083.42;11;7092.8;approved;9;ERP_FIN
+AST-0004562;2025-07-20;Finanzas;invoice;Servicios Centrales;5173.06;5;5033.6;on_time;4;ERP_FIN
+AST-0004563;2025-07-16;Finanzas;expense;Banco Delta;6334.69;4;7092.8;on_time;2;ERP_FIN
+AST-0004564;2025-07-05;Finanzas;payment;Aseguradora Nova;9412.31;5;6177.6;on_time;9;ERP_FIN
+AST-0004565;2025-07-02;Finanzas;invoice;Servicios Centrales;6931.64;8;5033.6;on_time;10;ERP_FIN
+AST-0004566;2025-07-04;Finanzas;invoice;Impuestos;7599.25;6;5033.6;on_time;2;ERP_FIN
+AST-0004567;2025-07-16;Finanzas;payment;Banco Delta;2924.31;18;6177.6;on_time;11;ERP_FIN
+AST-0004568;2025-07-20;Finanzas;expense;Aseguradora Nova;19052.53;6;7092.8;on_time;9;ERP_FIN
+AST-0004569;2025-07-23;Finanzas;payment;Banco Delta;2714.27;6;6177.6;approved;2;ERP_FIN
+AST-0004570;2025-07-25;Finanzas;expense;Impuestos;7892.39;25;7092.8;approved;8;ERP_FIN
+AST-0004571;2025-07-25;Finanzas;invoice;Impuestos;4482.26;10;5033.6;pending;4;ERP_FIN
+AST-0004572;2025-07-12;Finanzas;invoice;Impuestos;3203.08;8;5033.6;approved;10;ERP_FIN
+AST-0004573;2025-07-07;Finanzas;expense;Aseguradora Nova;6162.75;12;7092.8;late;11;ERP_FIN
+AST-0004574;2025-07-21;Finanzas;payment;Banco Delta;4968.8;1;6177.6;late;8;ERP_FIN
+AST-0004575;2025-07-17;Finanzas;expense;Impuestos;6954.91;10;7092.8;approved;10;ERP_FIN
+AST-0004576;2025-07-07;Finanzas;payment;Aseguradora Nova;3785.69;5;6177.6;approved;6;ERP_FIN
+AST-0004577;2025-07-28;Finanzas;expense;Servicios Centrales;4697.52;10;7092.8;on_time;10;ERP_FIN
+AST-0004578;2025-07-17;Finanzas;payment;Impuestos;9393.99;11;6177.6;on_time;5;ERP_FIN
+AST-0004579;2025-07-06;Finanzas;expense;Banco Delta;6049.46;14;7092.8;approved;7;ERP_FIN
+AST-0004580;2025-07-27;Finanzas;invoice;Servicios Centrales;3888.72;5;5033.6;on_time;9;ERP_FIN
+AST-0004581;2025-07-03;Finanzas;invoice;Impuestos;4973.53;9;5033.6;on_time;3;ERP_FIN
+AST-0004582;2025-07-13;Finanzas;expense;Servicios Centrales;6145.52;1;7092.8;on_time;3;ERP_FIN
+AST-0004583;2025-07-01;Finanzas;expense;Aseguradora Nova;7027.91;13;7092.8;on_time;4;ERP_FIN
+AST-0004584;2025-07-11;Finanzas;expense;Aseguradora Nova;8312.6;13;7092.8;on_time;6;ERP_FIN
+AST-0004585;2025-07-11;Finanzas;payment;Servicios Centrales;7071.55;8;6177.6;approved;12;ERP_FIN
+AST-0004586;2025-07-05;Finanzas;expense;Servicios Centrales;5877.75;10;7092.8;late;9;ERP_FIN
+AST-0004587;2025-07-15;Finanzas;expense;Impuestos;6278.62;1;7092.8;on_time;4;ERP_FIN
+AST-0004588;2025-07-27;Finanzas;invoice;Banco Delta;3273.56;1;5033.6;approved;7;ERP_FIN
+AST-0004589;2025-07-19;Finanzas;expense;Banco Delta;3869.77;8;7092.8;approved;6;ERP_FIN
+AST-0004590;2025-07-20;Finanzas;payment;Impuestos;5081.68;5;6177.6;pending;5;ERP_FIN
+AST-0004591;2025-07-24;Finanzas;invoice;Servicios Centrales;4452.86;12;5033.6;approved;8;ERP_FIN
+AST-0004592;2025-07-20;Finanzas;invoice;Servicios Centrales;6028.46;15;5033.6;on_time;7;ERP_FIN
+AST-0004593;2025-07-18;Finanzas;payment;Aseguradora Nova;6885.38;18;6177.6;on_time;12;ERP_FIN
+AST-0004594;2025-07-05;Finanzas;payment;Impuestos;4439.71;2;6177.6;on_time;4;ERP_FIN
+AST-0004595;2025-07-06;Finanzas;invoice;Servicios Centrales;2297.92;10;5033.6;on_time;10;ERP_FIN
+AST-0004596;2025-07-14;Finanzas;invoice;Banco Delta;3299.32;18;5033.6;on_time;6;ERP_FIN
+AST-0004597;2025-07-18;Finanzas;expense;Impuestos;3064.34;7;7092.8;on_time;12;ERP_FIN
+AST-0004598;2025-07-16;Finanzas;invoice;Aseguradora Nova;3897.32;10;5033.6;approved;5;ERP_FIN
+AST-0004599;2025-07-24;Finanzas;invoice;Banco Delta;10516.63;12;5033.6;approved;5;ERP_FIN
+AST-0004600;2025-07-01;Finanzas;invoice;Impuestos;4198.73;10;5033.6;on_time;7;ERP_FIN
+AST-0004601;2025-07-07;Finanzas;expense;Banco Delta;5128.86;18;7092.8;on_time;7;ERP_FIN
+AST-0004602;2025-07-06;Finanzas;invoice;Banco Delta;6628.43;5;5033.6;on_time;3;ERP_FIN
+AST-0004603;2025-07-11;Finanzas;invoice;Servicios Centrales;6418.35;14;5033.6;approved;9;ERP_FIN
+AST-0004604;2025-07-21;Finanzas;invoice;Aseguradora Nova;9902.01;5;5033.6;on_time;6;ERP_FIN
+AST-0004605;2025-07-11;Finanzas;expense;Banco Delta;6445.01;18;7092.8;pending;13;ERP_FIN
+AST-0004606;2025-07-14;Finanzas;invoice;Impuestos;4624.37;6;5033.6;late;8;ERP_FIN
+AST-0004607;2025-07-15;Finanzas;invoice;Aseguradora Nova;5590.29;1;5033.6;on_time;8;ERP_FIN
+AST-0004608;2025-07-18;Finanzas;invoice;Banco Delta;6223.94;8;5033.6;on_time;10;ERP_FIN
+AST-0004609;2025-07-08;Finanzas;invoice;Aseguradora Nova;4022.81;1;5033.6;approved;5;ERP_FIN
+AST-0004610;2025-07-23;Finanzas;payment;Banco Delta;7778.48;4;6177.6;on_time;10;ERP_FIN
+AST-0004611;2025-07-18;Finanzas;expense;Impuestos;6906.57;4;7092.8;on_time;5;ERP_FIN
+AST-0004612;2025-07-24;Finanzas;expense;Banco Delta;17225.72;12;7092.8;approved;7;ERP_FIN
+AST-0004613;2025-07-14;Finanzas;expense;Impuestos;7917.46;6;7092.8;on_time;6;ERP_FIN
+AST-0004614;2025-07-05;Finanzas;payment;Aseguradora Nova;5528.53;10;6177.6;approved;8;ERP_FIN
+AST-0004615;2025-07-23;Finanzas;invoice;Banco Delta;9117.15;5;5033.6;on_time;4;ERP_FIN
+AST-0004616;2025-07-10;Finanzas;invoice;Impuestos;6899.05;3;5033.6;late;5;ERP_FIN
+AST-0004617;2025-07-22;Finanzas;invoice;Impuestos;2872.29;4;5033.6;approved;8;ERP_FIN
+AST-0004618;2025-07-12;Finanzas;expense;Aseguradora Nova;4437.73;17;7092.8;on_time;10;ERP_FIN
+AST-0004619;2025-07-16;Finanzas;invoice;Aseguradora Nova;11072.19;10;5033.6;on_time;4;ERP_FIN
+AST-0004620;2025-07-28;Finanzas;expense;Servicios Centrales;6891.02;9;7092.8;pending;5;ERP_FIN
+AST-0004621;2025-07-24;Finanzas;expense;Banco Delta;4901.18;5;7092.8;approved;6;ERP_FIN
+AST-0004622;2025-07-03;Finanzas;expense;Impuestos;13695.03;15;7092.8;late;6;ERP_FIN
+AST-0004623;2025-07-23;Finanzas;invoice;Impuestos;5107.05;11;5033.6;on_time;11;ERP_FIN
+AST-0004624;2025-07-03;Finanzas;invoice;Impuestos;9272.85;11;5033.6;late;1;ERP_FIN
+AST-0004625;2025-07-20;Finanzas;expense;Aseguradora Nova;15569.27;1;7092.8;late;7;ERP_FIN
+AST-0004626;2025-07-09;Finanzas;payment;Servicios Centrales;5202.46;1;6177.6;on_time;9;ERP_FIN
+AST-0004627;2025-07-10;Finanzas;invoice;Banco Delta;5771.95;4;5033.6;on_time;13;ERP_FIN
+AST-0004628;2025-07-20;Finanzas;expense;Servicios Centrales;11326.41;10;7092.8;on_time;7;ERP_FIN
+AST-0004629;2025-07-25;Finanzas;invoice;Banco Delta;3274.27;6;5033.6;on_time;9;ERP_FIN
+AST-0004630;2025-07-26;Finanzas;payment;Banco Delta;6912.46;1;6177.6;approved;7;ERP_FIN
+AST-0004631;2025-07-15;Finanzas;payment;Impuestos;4938.64;4;6177.6;on_time;11;ERP_FIN
+AST-0004632;2025-07-10;Finanzas;payment;Servicios Centrales;7297.69;7;6177.6;approved;5;ERP_FIN
+AST-0004633;2025-07-05;Finanzas;invoice;Impuestos;6078.6;9;5033.6;late;6;ERP_FIN
+AST-0004634;2025-07-06;Finanzas;invoice;Servicios Centrales;12071.5;9;5033.6;on_time;4;ERP_FIN
+AST-0004635;2025-07-08;Finanzas;invoice;Banco Delta;5989.81;1;5033.6;on_time;3;ERP_FIN
+AST-0004636;2025-07-04;Finanzas;expense;Impuestos;2986.3;1;7092.8;approved;10;ERP_FIN
+AST-0004637;2025-07-11;Finanzas;expense;Aseguradora Nova;8092.3;8;7092.8;on_time;7;ERP_FIN
+AST-0004638;2025-07-19;Finanzas;payment;Banco Delta;4206.76;5;6177.6;on_time;9;ERP_FIN
+AST-0004639;2025-07-06;Finanzas;expense;Banco Delta;4384.02;12;7092.8;approved;3;ERP_FIN
+AST-0004640;2025-07-21;Finanzas;invoice;Impuestos;1953.54;5;5033.6;late;11;ERP_FIN
+AST-0004641;2025-07-19;Finanzas;expense;Servicios Centrales;7547.56;9;7092.8;on_time;5;ERP_FIN
+AST-0004642;2025-07-26;Finanzas;payment;Impuestos;9545.67;20;6177.6;on_time;11;ERP_FIN
+AST-0004643;2025-07-19;Finanzas;expense;Aseguradora Nova;5917.46;10;7092.8;on_time;8;ERP_FIN
+AST-0004644;2025-07-27;Finanzas;invoice;Servicios Centrales;3874.23;1;5033.6;on_time;6;ERP_FIN
+AST-0004645;2025-07-14;Finanzas;invoice;Banco Delta;4220.36;5;5033.6;on_time;7;ERP_FIN
+AST-0004646;2025-07-11;Finanzas;expense;Servicios Centrales;3914.04;17;7092.8;approved;3;ERP_FIN
+AST-0004647;2025-07-04;Finanzas;invoice;Servicios Centrales;8811.99;6;5033.6;on_time;4;ERP_FIN
+AST-0004648;2025-07-16;Finanzas;expense;Servicios Centrales;9870.95;7;7092.8;on_time;4;ERP_FIN
+AST-0004649;2025-07-14;Finanzas;expense;Aseguradora Nova;5232.16;1;7092.8;approved;8;ERP_FIN
+AST-0004650;2025-07-14;Finanzas;expense;Banco Delta;4639.45;16;7092.8;on_time;9;ERP_FIN
+AST-0004651;2025-07-20;Finanzas;payment;Servicios Centrales;4661.33;5;6177.6;on_time;3;ERP_FIN
+AST-0004652;2025-07-14;Finanzas;payment;Impuestos;5109.97;20;6177.6;approved;9;ERP_FIN
+AST-0004653;2025-07-04;Finanzas;expense;Servicios Centrales;5188.38;12;7092.8;late;3;ERP_FIN
+AST-0004654;2025-07-06;Finanzas;payment;Impuestos;4639.89;10;6177.6;on_time;6;ERP_FIN
+AST-0004655;2025-07-19;Finanzas;invoice;Aseguradora Nova;10832.0;2;5033.6;on_time;1;ERP_FIN

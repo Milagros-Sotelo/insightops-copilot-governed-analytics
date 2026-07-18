@@ -1,0 +1,2 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0004302,2027-02-15,Compras,supplier,Litoral Office,2402.77,1,4149.91,on_time,5,PROCURE,Future transaction date,DQ005,2025-06_compras.csv,a2d9007f-ad48-49da-b681-85a6a0ff83b7

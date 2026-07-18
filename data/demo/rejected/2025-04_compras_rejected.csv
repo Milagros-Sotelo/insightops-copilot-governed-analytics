@@ -1,0 +1,2 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0003540,2025-04-03,Compras,order,Norte Industrial,7439.42,2,3022.62,approved,7,PROCURE,Duplicate business key,DQ006,2025-04_compras.csv,7c248af8-8faa-4b49-b751-3454f8916ba2

@@ -1,0 +1,3 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0003621,2025-04-26,Ventas,order,Cuenta Andina,2961.5,12,3022.62,on_time,6,CRM,Duplicate business key,DQ006,2025-04_ventas.csv,37320b68-8986-405c-9e15-391ce5b7e9d2
+AST-0003669,2025-04-20,Ventas,order,Casa Nativa,1180.72,1,3022.62,on_time,4,CRM,Duplicate business key,DQ006,2025-04_ventas.csv,37320b68-8986-405c-9e15-391ce5b7e9d2

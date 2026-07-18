@@ -1,0 +1,4 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0008790,2026-06-27,Finanzas,invoice,,3802.39,2,5277.54,approved,11,ERP_FIN,Required field is missing,DQ001,2026-06_finanzas.csv,7f6b4939-4ed4-44ef-8350-92943fa6665a
+AST-0008790,2026-06-27,Finanzas,invoice,,3802.39,2,5277.54,approved,11,ERP_FIN,Required field is missing; Duplicate business key,"DQ001,DQ006",2026-06_finanzas.csv,7f6b4939-4ed4-44ef-8350-92943fa6665a
+AST-0008835,2026-06-21,Finanzas,expense,Impuestos,6527.22,1,7436.53,on_time,8,ERP_FIN,Duplicate business key,DQ006,2026-06_finanzas.csv,7f6b4939-4ed4-44ef-8350-92943fa6665a

@@ -1,0 +1,4 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0006722,2025-12-17,Ventas,sales,,29317.83,16,16335.87,on_time,5,CRM,Required field is missing,DQ001,2025-12_ventas.csv,fc42ad0e-b95f-4ff2-b615-b1bf3223c66a
+AST-0006735,2027-02-15,Ventas,sales,Grupo Terra,23806.81,17,16335.87,on_time,3,CRM,Future transaction date,DQ005,2025-12_ventas.csv,fc42ad0e-b95f-4ff2-b615-b1bf3223c66a
+AST-0006744,2025-12-23,Ventas,sales,Casa Nativa,31736.06,11,16335.87,on_time,5,CRM,Duplicate business key,DQ006,2025-12_ventas.csv,fc42ad0e-b95f-4ff2-b615-b1bf3223c66a

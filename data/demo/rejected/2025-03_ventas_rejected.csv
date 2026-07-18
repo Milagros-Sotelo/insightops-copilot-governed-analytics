@@ -1,0 +1,3 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0003262,2025-03-28,Ventas,sales,Cliente Boreal,-8943.14,13,12570.88,on_time,7,CRM,Negative amount is not allowed,DQ004,2025-03_ventas.csv,0d7966ba-9924-4b7c-8177-e0d9ac24c463
+AST-0003281,2025-03-09,Ventas,order,Cuenta Andina,2057.04,5,3044.51,on_time,5,CRM,Duplicate business key,DQ006,2025-03_ventas.csv,0d7966ba-9924-4b7c-8177-e0d9ac24c463

@@ -1,0 +1,118 @@
+source_file,rule_id,reason,severity,failed_rows,total_rows,pass_rate,run_id
+2024-07_compras.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,14b60ce7-b484-4e15-a296-3ef962761bbd
+2024-07_finanzas.csv,DQ001,Required field is missing,error,1,96,0.9895833333333334,bd31d32f-ed9b-447a-9a80-0a4dccee79e6
+2024-07_finanzas.csv,DQ006,Duplicate business key,error,1,96,0.9895833333333334,bd31d32f-ed9b-447a-9a80-0a4dccee79e6
+2024-07_ventas.csv,DQ006,Duplicate business key,error,2,97,0.979381443298969,ca72608b-e450-45f9-aa6c-5785ce38a1b2
+2024-08_compras.csv,DQ001,Required field is missing,error,1,96,0.9895833333333334,f142464a-0af0-4de6-b61b-5edd9a7b1cde
+2024-08_compras.csv,DQ006,Duplicate business key,error,1,96,0.9895833333333334,f142464a-0af0-4de6-b61b-5edd9a7b1cde
+2024-08_compras.csv,DQ009,Amount is an IQR outlier,warning,1,96,0.9895833333333334,f142464a-0af0-4de6-b61b-5edd9a7b1cde
+2024-08_ventas.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,26af7251-dcb5-4ec2-af4c-226e52e95386
+2024-08_ventas.csv,DQ009,Amount is an IQR outlier,warning,1,95,0.9894736842105263,26af7251-dcb5-4ec2-af4c-226e52e95386
+2024-09_finanzas.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,95bd5049-977f-4c7e-b7b6-9ff2b4429035
+2024-09_finanzas.csv,DQ009,Amount is an IQR outlier,warning,1,95,0.9894736842105263,95bd5049-977f-4c7e-b7b6-9ff2b4429035
+2024-09_operaciones.csv,DQ001,Required field is missing,error,1,96,0.9895833333333334,e39616b1-f860-4a76-a409-d3b0fa80d02d
+2024-09_operaciones.csv,DQ005,Future transaction date,error,1,96,0.9895833333333334,e39616b1-f860-4a76-a409-d3b0fa80d02d
+2024-09_operaciones.csv,DQ006,Duplicate business key,error,1,96,0.9895833333333334,e39616b1-f860-4a76-a409-d3b0fa80d02d
+2024-09_ventas.csv,DQ005,Future transaction date,error,1,95,0.9894736842105263,4f195888-82aa-4558-8dad-b902123cdab9
+2024-10_compras.csv,DQ004,Negative amount is not allowed,error,1,95,0.9894736842105263,7a3cdffd-ab5e-47df-af66-1f4dcc44f173
+2024-10_finanzas.csv,DQ009,Amount is an IQR outlier,warning,1,95,0.9894736842105263,9fbdab63-0e43-439b-9a76-73d5fb67dced
+2024-10_operaciones.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,f52ca5e9-b195-465e-b0ae-c32258b18a7a
+2024-12_compras.csv,DQ009,Amount is an IQR outlier,warning,2,95,0.9789473684210527,87bb2234-4c1c-4179-b899-188e90b993aa
+2024-12_operaciones.csv,DQ005,Future transaction date,error,1,95,0.9894736842105263,032e17c4-0de3-4745-a14e-19f709dbcaea
+2024-12_ventas.csv,DQ004,Negative amount is not allowed,error,1,95,0.9894736842105263,69151645-e849-4ce1-829f-c0e57ebd9d53
+2025-01_compras.csv,DQ001,Required field is missing,error,2,95,0.9789473684210527,55c9a7e6-eac4-4377-89fb-9d850a75194d
+2025-01_compras.csv,DQ009,Amount is an IQR outlier,warning,2,95,0.9789473684210527,55c9a7e6-eac4-4377-89fb-9d850a75194d
+2025-01_finanzas.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,fc18621d-6df3-4411-8c87-d21661a804a9
+2025-01_finanzas.csv,DQ004,Negative amount is not allowed,error,1,95,0.9894736842105263,fc18621d-6df3-4411-8c87-d21661a804a9
+2025-01_finanzas.csv,DQ009,Amount is an IQR outlier,warning,1,95,0.9894736842105263,fc18621d-6df3-4411-8c87-d21661a804a9
+2025-01_operaciones.csv,DQ009,Amount is an IQR outlier,warning,2,95,0.9789473684210527,3b07ea33-78b8-4fcc-a094-cca45aa213f9
+2025-02_compras.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,17213686-e02f-4dab-a609-94973e1cb7ca
+2025-02_compras.csv,DQ004,Negative amount is not allowed,error,1,95,0.9894736842105263,17213686-e02f-4dab-a609-94973e1cb7ca
+2025-02_compras.csv,DQ005,Future transaction date,error,1,95,0.9894736842105263,17213686-e02f-4dab-a609-94973e1cb7ca
+2025-02_operaciones.csv,DQ009,Amount is an IQR outlier,warning,1,95,0.9894736842105263,6de47720-580d-4949-840f-ef71edb5ca85
+2025-03_compras.csv,DQ005,Future transaction date,error,1,95,0.9894736842105263,127674b5-ddaf-483a-94ba-2abaae5ef296
+2025-03_finanzas.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,ce6a2e04-2531-4644-9347-3731fb0ca0e1
+2025-03_finanzas.csv,DQ004,Negative amount is not allowed,error,1,95,0.9894736842105263,ce6a2e04-2531-4644-9347-3731fb0ca0e1
+2025-03_finanzas.csv,DQ009,Amount is an IQR outlier,warning,1,95,0.9894736842105263,ce6a2e04-2531-4644-9347-3731fb0ca0e1
+2025-03_ventas.csv,DQ004,Negative amount is not allowed,error,1,96,0.9895833333333334,0d7966ba-9924-4b7c-8177-e0d9ac24c463
+2025-03_ventas.csv,DQ006,Duplicate business key,error,1,96,0.9895833333333334,0d7966ba-9924-4b7c-8177-e0d9ac24c463
+2025-04_compras.csv,DQ006,Duplicate business key,error,1,96,0.9895833333333334,7c248af8-8faa-4b49-b751-3454f8916ba2
+2025-04_finanzas.csv,DQ009,Amount is an IQR outlier,warning,1,95,0.9894736842105263,23ab68f0-90da-4e6f-84e5-0258232102c6
+2025-04_operaciones.csv,DQ001,Required field is missing,error,2,95,0.9789473684210527,89cbb5de-7317-4b60-9886-3343b928d09b
+2025-04_operaciones.csv,DQ004,Negative amount is not allowed,error,1,95,0.9894736842105263,89cbb5de-7317-4b60-9886-3343b928d09b
+2025-04_ventas.csv,DQ006,Duplicate business key,error,2,97,0.979381443298969,37320b68-8986-405c-9e15-391ce5b7e9d2
+2025-05_compras.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,a1e2a814-84e6-47c6-bfe6-558c7517e380
+2025-06_compras.csv,DQ005,Future transaction date,error,1,95,0.9894736842105263,a2d9007f-ad48-49da-b681-85a6a0ff83b7
+2025-06_compras.csv,DQ009,Amount is an IQR outlier,warning,2,95,0.9789473684210527,a2d9007f-ad48-49da-b681-85a6a0ff83b7
+2025-06_finanzas.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,ec62a4bb-cff3-473a-a6b6-188d701a1670
+2025-07_finanzas.csv,DQ009,Amount is an IQR outlier,warning,2,95,0.9789473684210527,177a99ff-8af5-4f45-a5bb-985e44280376
+2025-07_operaciones.csv,DQ004,Negative amount is not allowed,error,1,96,0.9895833333333334,b238b54b-8e35-48ec-9207-33229128a421
+2025-07_operaciones.csv,DQ006,Duplicate business key,error,1,96,0.9895833333333334,b238b54b-8e35-48ec-9207-33229128a421
+2025-07_ventas.csv,DQ001,Required field is missing,error,2,95,0.9789473684210527,b05816a6-7413-413b-b607-a225028a98aa
+2025-08_compras.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,f22663ce-d6eb-447d-8d93-334f0eb2f239
+2025-08_finanzas.csv,DQ001,Required field is missing,error,1,96,0.9895833333333334,35789bc3-64b3-42ff-a577-d4144e6bedd7
+2025-08_finanzas.csv,DQ006,Duplicate business key,error,1,96,0.9895833333333334,35789bc3-64b3-42ff-a577-d4144e6bedd7
+2025-08_operaciones.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,78cbb35e-c55e-4814-837a-82a6a0d3f097
+2025-09_compras.csv,DQ004,Negative amount is not allowed,error,1,96,0.9895833333333334,fceec308-9373-4f91-8dd3-69686abc85b9
+2025-09_compras.csv,DQ006,Duplicate business key,error,1,96,0.9895833333333334,fceec308-9373-4f91-8dd3-69686abc85b9
+2025-09_finanzas.csv,DQ004,Negative amount is not allowed,error,1,96,0.9895833333333334,22baa64a-6573-4919-a01f-d6f49eb49d7b
+2025-09_finanzas.csv,DQ005,Future transaction date,error,1,96,0.9895833333333334,22baa64a-6573-4919-a01f-d6f49eb49d7b
+2025-09_finanzas.csv,DQ006,Duplicate business key,error,1,96,0.9895833333333334,22baa64a-6573-4919-a01f-d6f49eb49d7b
+2025-09_operaciones.csv,DQ001,Required field is missing,error,2,97,0.979381443298969,b7506798-6cfc-4481-814e-2d42585bc527
+2025-09_operaciones.csv,DQ006,Duplicate business key,error,2,97,0.979381443298969,b7506798-6cfc-4481-814e-2d42585bc527
+2025-09_operaciones.csv,DQ009,Amount is an IQR outlier,warning,3,97,0.9690721649484536,b7506798-6cfc-4481-814e-2d42585bc527
+2025-09_ventas.csv,DQ006,Duplicate business key,error,1,96,0.9895833333333334,93fb8304-e212-4222-80d4-604011600346
+2025-10_compras.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,8f233ee8-b576-48d5-8af5-2c6a83197080
+2025-10_compras.csv,DQ009,Amount is an IQR outlier,warning,1,95,0.9894736842105263,8f233ee8-b576-48d5-8af5-2c6a83197080
+2025-10_finanzas.csv,DQ009,Amount is an IQR outlier,warning,2,95,0.9789473684210527,6302a4c5-0beb-491f-bf8d-9dce61e17912
+2025-10_operaciones.csv,DQ004,Negative amount is not allowed,error,1,95,0.9894736842105263,1e5440ea-5d13-4a3f-8e2b-4708f8ec1ed6
+2025-10_ventas.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,1ab8f357-32c7-4bcf-846f-b32ce045e9e2
+2025-11_finanzas.csv,DQ006,Duplicate business key,error,1,96,0.9895833333333334,c3c8a990-ba91-4b52-af9d-388fe520a5a4
+2025-11_operaciones.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,ffe45c58-ffcf-40f1-801f-888689f429e9
+2025-11_operaciones.csv,DQ009,Amount is an IQR outlier,warning,2,95,0.9789473684210527,ffe45c58-ffcf-40f1-801f-888689f429e9
+2025-12_finanzas.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,f6fdb98f-c72f-492a-9b03-fb34216e9a42
+2025-12_operaciones.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,c5e2d828-2a0b-4d8c-825d-1780ead3d676
+2025-12_ventas.csv,DQ001,Required field is missing,error,1,96,0.9895833333333334,fc42ad0e-b95f-4ff2-b615-b1bf3223c66a
+2025-12_ventas.csv,DQ005,Future transaction date,error,1,96,0.9895833333333334,fc42ad0e-b95f-4ff2-b615-b1bf3223c66a
+2025-12_ventas.csv,DQ006,Duplicate business key,error,1,96,0.9895833333333334,fc42ad0e-b95f-4ff2-b615-b1bf3223c66a
+2026-01_compras.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,ac368535-3af5-4f61-a4cb-81c82ec9ea34
+2026-01_compras.csv,DQ004,Negative amount is not allowed,error,2,95,0.9789473684210527,ac368535-3af5-4f61-a4cb-81c82ec9ea34
+2026-01_compras.csv,DQ009,Amount is an IQR outlier,warning,1,95,0.9894736842105263,ac368535-3af5-4f61-a4cb-81c82ec9ea34
+2026-01_finanzas.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,ccb991f7-e40d-4a98-9966-abde73e543c8
+2026-01_operaciones.csv,DQ004,Negative amount is not allowed,error,2,96,0.9791666666666666,604a614b-d8e4-45af-b6bd-8867319c7de1
+2026-01_operaciones.csv,DQ006,Duplicate business key,error,1,96,0.9895833333333334,604a614b-d8e4-45af-b6bd-8867319c7de1
+2026-01_operaciones.csv,DQ009,Amount is an IQR outlier,warning,1,96,0.9895833333333334,604a614b-d8e4-45af-b6bd-8867319c7de1
+2026-01_ventas.csv,DQ006,Duplicate business key,error,1,96,0.9895833333333334,19ea6ede-8647-4437-8672-71dc0826f64d
+2026-01_ventas.csv,DQ009,Amount is an IQR outlier,warning,1,96,0.9895833333333334,19ea6ede-8647-4437-8672-71dc0826f64d
+2026-02_compras.csv,DQ001,Required field is missing,error,1,96,0.9895833333333334,17e9ec3e-3c82-4e03-b846-1eff6490aed5
+2026-02_compras.csv,DQ006,Duplicate business key,error,1,96,0.9895833333333334,17e9ec3e-3c82-4e03-b846-1eff6490aed5
+2026-02_finanzas.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,4e3298a0-afa7-4cfa-b504-45b06f4cc272
+2026-02_finanzas.csv,DQ009,Amount is an IQR outlier,warning,1,95,0.9894736842105263,4e3298a0-afa7-4cfa-b504-45b06f4cc272
+2026-02_operaciones.csv,DQ001,Required field is missing,error,1,96,0.9895833333333334,1854baad-7e7c-4fe2-adce-28f711dac2f4
+2026-02_operaciones.csv,DQ006,Duplicate business key,error,1,96,0.9895833333333334,1854baad-7e7c-4fe2-adce-28f711dac2f4
+2026-02_operaciones.csv,DQ009,Amount is an IQR outlier,warning,1,96,0.9895833333333334,1854baad-7e7c-4fe2-adce-28f711dac2f4
+2026-03_compras.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,2c7d5267-4d79-4d7a-a20d-830f21ca153d
+2026-03_compras.csv,DQ009,Amount is an IQR outlier,warning,2,95,0.9789473684210527,2c7d5267-4d79-4d7a-a20d-830f21ca153d
+2026-03_finanzas.csv,DQ005,Future transaction date,error,1,95,0.9894736842105263,7bdbcbde-91d6-4d2c-ad07-cfecf0d4e743
+2026-03_finanzas.csv,DQ009,Amount is an IQR outlier,warning,2,95,0.9789473684210527,7bdbcbde-91d6-4d2c-ad07-cfecf0d4e743
+2026-03_operaciones.csv,DQ001,Required field is missing,error,2,95,0.9789473684210527,a78ec3e8-cb0a-46bc-965e-9e27f4328740
+2026-03_ventas.csv,DQ004,Negative amount is not allowed,error,1,95,0.9894736842105263,828d550c-c411-4451-9353-fddf87f15769
+2026-03_ventas.csv,DQ009,Amount is an IQR outlier,warning,1,95,0.9894736842105263,828d550c-c411-4451-9353-fddf87f15769
+2026-04_compras.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,e5f5bb37-d613-4fe5-b9a5-0ec98d2f91a6
+2026-04_finanzas.csv,DQ005,Future transaction date,error,1,97,0.9896907216494846,48074a97-385c-41f8-9406-b408ac4a6b2b
+2026-04_finanzas.csv,DQ006,Duplicate business key,error,2,97,0.979381443298969,48074a97-385c-41f8-9406-b408ac4a6b2b
+2026-04_finanzas.csv,DQ009,Amount is an IQR outlier,warning,1,97,0.9896907216494846,48074a97-385c-41f8-9406-b408ac4a6b2b
+2026-04_operaciones.csv,DQ001,Required field is missing,error,2,95,0.9789473684210527,cc3e894d-6733-453d-a845-7ab64c8d65a0
+2026-04_operaciones.csv,DQ005,Future transaction date,error,1,95,0.9894736842105263,cc3e894d-6733-453d-a845-7ab64c8d65a0
+2026-04_ventas.csv,DQ004,Negative amount is not allowed,error,1,95,0.9894736842105263,bced8660-49b1-4177-ba45-b2bf2e4c4752
+2026-05_finanzas.csv,DQ006,Duplicate business key,error,1,96,0.9895833333333334,4dcf273b-4201-4301-9c46-cc2f290f9239
+2026-06_compras.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,f89dc228-b729-4be0-94c4-2af79e61d48b
+2026-06_compras.csv,DQ004,Negative amount is not allowed,error,1,95,0.9894736842105263,f89dc228-b729-4be0-94c4-2af79e61d48b
+2026-06_compras.csv,DQ005,Future transaction date,error,1,95,0.9894736842105263,f89dc228-b729-4be0-94c4-2af79e61d48b
+2026-06_compras.csv,DQ009,Amount is an IQR outlier,warning,2,95,0.9789473684210527,f89dc228-b729-4be0-94c4-2af79e61d48b
+2026-06_finanzas.csv,DQ001,Required field is missing,error,2,97,0.979381443298969,7f6b4939-4ed4-44ef-8350-92943fa6665a
+2026-06_finanzas.csv,DQ006,Duplicate business key,error,2,97,0.979381443298969,7f6b4939-4ed4-44ef-8350-92943fa6665a
+2026-06_finanzas.csv,DQ009,Amount is an IQR outlier,warning,1,97,0.9896907216494846,7f6b4939-4ed4-44ef-8350-92943fa6665a
+2026-06_operaciones.csv,DQ006,Duplicate business key,error,1,96,0.9895833333333334,b5ca2708-5c14-418b-b561-5f6114de8a90
+2026-06_ventas.csv,DQ001,Required field is missing,error,1,95,0.9894736842105263,b3709e9d-92dd-4583-b039-d311081c02a1
+2026-06_ventas.csv,DQ009,Amount is an IQR outlier,warning,1,95,0.9894736842105263,b3709e9d-92dd-4583-b039-d311081c02a1

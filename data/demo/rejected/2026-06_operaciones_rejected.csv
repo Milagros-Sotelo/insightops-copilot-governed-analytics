@@ -1,0 +1,2 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0009074,2026-06-16,Operaciones,cycle_time,Centro Sur,2668.91,1,1079.5,approved,6,WMS,Duplicate business key,DQ006,2026-06_operaciones.csv,b5ca2708-5c14-418b-b561-5f6114de8a90

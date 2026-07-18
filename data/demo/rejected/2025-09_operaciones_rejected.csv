@@ -1,0 +1,4 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0005668,2025-09-18,Operaciones,compliance,,1315.92,1,902.57,approved,11,WMS,Required field is missing,DQ001,2025-09_operaciones.csv,b7506798-6cfc-4481-814e-2d42585bc527
+AST-0005668,2025-09-18,Operaciones,compliance,,1315.92,1,902.57,approved,11,WMS,Required field is missing; Duplicate business key,"DQ001,DQ006",2025-09_operaciones.csv,b7506798-6cfc-4481-814e-2d42585bc527
+AST-0005700,2025-09-18,Operaciones,compliance,Centro Sur,2202.31,18,902.57,late,13,WMS,Duplicate business key,DQ006,2025-09_operaciones.csv,b7506798-6cfc-4481-814e-2d42585bc527

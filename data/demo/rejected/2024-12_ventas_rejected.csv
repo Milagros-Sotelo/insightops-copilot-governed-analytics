@@ -1,0 +1,2 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0002173,2024-12-15,Ventas,margin_input,Cuenta Andina,-5254.07,12,8089.92,pending,1,CRM,Negative amount is not allowed,DQ004,2024-12_ventas.csv,69151645-e849-4ce1-829f-c0e57ebd9d53

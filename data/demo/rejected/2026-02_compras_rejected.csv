@@ -1,0 +1,3 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0007391,2026-02-16,Compras,expense,,11200.18,2,7156.78,approved,5,PROCURE,Required field is missing,DQ001,2026-02_compras.csv,17e9ec3e-3c82-4e03-b846-1eff6490aed5
+AST-0007390,2026-02-15,Compras,expense,Orion Tech,5757.55,17,7156.78,on_time,7,PROCURE,Duplicate business key,DQ006,2026-02_compras.csv,17e9ec3e-3c82-4e03-b846-1eff6490aed5

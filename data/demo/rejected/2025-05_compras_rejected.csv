@@ -1,0 +1,2 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0003912,2025-05-02,Compras,supplier,,4161.85,1,3914.06,approved,6,PROCURE,Required field is missing,DQ001,2025-05_compras.csv,a1e2a814-84e6-47c6-bfe6-558c7517e380

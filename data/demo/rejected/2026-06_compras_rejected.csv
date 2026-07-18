@@ -1,0 +1,4 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0008891,2027-02-15,Compras,order,Atlas Supply,3897.97,6,3718.26,late,6,PROCURE,Future transaction date,DQ005,2026-06_compras.csv,f89dc228-b729-4be0-94c4-2af79e61d48b
+AST-0008909,2026-06-20,Compras,expense,,8916.79,6,7436.53,late,7,PROCURE,Required field is missing,DQ001,2026-06_compras.csv,f89dc228-b729-4be0-94c4-2af79e61d48b
+AST-0008912,2026-06-23,Compras,expense,Orion Tech,-5572.75,2,7436.53,on_time,4,PROCURE,Negative amount is not allowed,DQ004,2026-06_compras.csv,f89dc228-b729-4be0-94c4-2af79e61d48b

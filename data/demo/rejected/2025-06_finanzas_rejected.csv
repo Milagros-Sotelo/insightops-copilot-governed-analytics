@@ -1,0 +1,2 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0004193,2025-06-24,Finanzas,expense,,10107.91,20,6597.3,pending,8,ERP_FIN,Required field is missing,DQ001,2025-06_finanzas.csv,ec62a4bb-cff3-473a-a6b6-188d701a1670

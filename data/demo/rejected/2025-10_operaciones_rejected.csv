@@ -1,0 +1,2 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0006014,2025-10-17,Operaciones,inventory,Centro Sur,-6158.38,47,2907.52,late,10,WMS,Negative amount is not allowed,DQ004,2025-10_operaciones.csv,1e5440ea-5d13-4a3f-8e2b-4708f8ec1ed6

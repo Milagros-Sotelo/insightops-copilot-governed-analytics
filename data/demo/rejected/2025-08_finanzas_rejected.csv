@@ -1,0 +1,3 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0004943,2025-08-23,Finanzas,invoice,,6656.48,4,5391.58,approved,4,ERP_FIN,Required field is missing,DQ001,2025-08_finanzas.csv,35789bc3-64b3-42ff-a577-d4144e6bedd7
+AST-0005006,2025-08-16,Finanzas,payment,Banco Delta,9743.36,6,6616.94,on_time,6,ERP_FIN,Duplicate business key,DQ006,2025-08_finanzas.csv,35789bc3-64b3-42ff-a577-d4144e6bedd7

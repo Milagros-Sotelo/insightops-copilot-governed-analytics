@@ -1,0 +1,3 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0000251,2024-07-14,Ventas,margin_input,Casa Nativa,5678.01,3,7200.0,approved,3,CRM,Duplicate business key,DQ006,2024-07_ventas.csv,ca72608b-e450-45f9-aa6c-5785ce38a1b2
+AST-0000212,2024-07-20,Ventas,order,Casa Nativa,2084.7,12,3100.0,on_time,6,CRM,Duplicate business key,DQ006,2024-07_ventas.csv,ca72608b-e450-45f9-aa6c-5785ce38a1b2

@@ -1,0 +1,4 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0003706,2025-04-18,Operaciones,compliance,,2525.96,11,682.53,on_time,11,WMS,Required field is missing,DQ001,2025-04_operaciones.csv,89cbb5de-7317-4b60-9886-3343b928d09b
+AST-0003749,2025-04-04,Operaciones,compliance,Centro Norte,-486.01,5,682.53,on_time,12,WMS,Negative amount is not allowed,DQ004,2025-04_operaciones.csv,89cbb5de-7317-4b60-9886-3343b928d09b
+AST-0003800,2025-04-04,Operaciones,cycle_time,,1102.38,9,877.54,on_time,8,WMS,Required field is missing,DQ001,2025-04_operaciones.csv,89cbb5de-7317-4b60-9886-3343b928d09b

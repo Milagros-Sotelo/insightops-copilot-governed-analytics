@@ -1,0 +1,241 @@
+period,metric_id,value,budget,name,definition,formula,granularity,source,owner,frequency,expected_min,expected_max,improvement_direction,effective_date,budget_variance
+2024-07,COMPLIANCE,0.7804232804232805,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2024-07,CYCLE_TIME,7.9523809523809526,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2024-07,EXPENSES,630255.24,601400.0,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.047980113069504476
+2024-07,GROSS_MARGIN,0.7739782984400606,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2024-07,INVENTORY,46.4468085106383,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2024-07,INVOICES,28.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2024-07,NET_SALES,603856.1300000001,588800.0,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.025570872961956728
+2024-07,ORDERS,51.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2024-07,PAYMENTS,118651.87000000001,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2024-07,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2024-08,COMPLIANCE,0.7883597883597884,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2024-08,CYCLE_TIME,7.605820105820106,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2024-08,EXPENSES,705485.3200000001,645133.4199999999,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.09354948624425649
+2024-08,GROSS_MARGIN,0.7724721273348756,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2024-08,INVENTORY,44.148936170212764,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2024-08,INVOICES,22.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2024-08,NET_SALES,725450.9,659079.3600000001,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.10070341149812355
+2024-08,ORDERS,51.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2024-08,PAYMENTS,136150.99,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2024-08,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2024-09,COMPLIANCE,0.7925531914893617,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2024-09,CYCLE_TIME,7.795212765957447,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2024-09,EXPENSES,620987.9299999999,567695.7899999998,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.09387446752071237
+2024-09,GROSS_MARGIN,0.7985859467870744,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2024-09,INVENTORY,44.208333333333336,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2024-09,INVOICES,31.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2024-09,NET_SALES,759237.3400000001,636650.9599999998,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.19254880256522391
+2024-09,ORDERS,57.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2024-09,PAYMENTS,159621.43999999997,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2024-09,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2024-10,COMPLIANCE,0.7962962962962963,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2024-10,CYCLE_TIME,7.804232804232805,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2024-10,EXPENSES,738316.4900000001,719397.9999999997,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.02629766832824176
+2024-10,GROSS_MARGIN,0.7283742451401186,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2024-10,INVENTORY,43.422222222222224,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2024-10,INVOICES,20.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2024-10,NET_SALES,686981.8,653492.3999999999,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.05124680868515096
+2024-10,ORDERS,58.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2024-10,PAYMENTS,132945.42,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2024-10,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2024-11,COMPLIANCE,0.8105263157894737,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2024-11,CYCLE_TIME,7.810526315789474,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2024-11,EXPENSES,778958.3799999999,667075.0499999999,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.16772225254114956
+2024-11,GROSS_MARGIN,0.6130059432442866,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2024-11,INVENTORY,45.24444444444445,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2024-11,INVOICES,32.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2024-11,NET_SALES,611612.0800000001,577530.3299999998,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.05901291798822106
+2024-11,ORDERS,51.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2024-11,PAYMENTS,84871.16999999998,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2024-11,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2024-12,COMPLIANCE,0.7777777777777778,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2024-12,CYCLE_TIME,7.701058201058201,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2024-12,EXPENSES,611172.8500000002,543372.9599999998,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.1247759733940393
+2024-12,GROSS_MARGIN,0.8584525562628941,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2024-12,INVENTORY,45.4,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2024-12,INVOICES,33.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2024-12,NET_SALES,724557.9099999999,589665.2799999999,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.2287613576298744
+2024-12,ORDERS,62.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2024-12,PAYMENTS,154870.74000000002,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2024-12,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2025-01,COMPLIANCE,0.7898936170212766,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2025-01,CYCLE_TIME,7.5638297872340425,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2025-01,EXPENSES,589053.8800000002,525065.6000000002,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.12186721049712645
+2025-01,GROSS_MARGIN,0.8081145811424578,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2025-01,INVENTORY,42.5,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2025-01,INVOICES,31.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2025-01,NET_SALES,699254.3299999998,617471.9999999999,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.1324470259380182
+2025-01,ORDERS,60.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2025-01,PAYMENTS,114296.99,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2025-01,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2025-02,COMPLIANCE,0.7745358090185677,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2025-02,CYCLE_TIME,7.835543766578249,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2025-02,EXPENSES,675669.61,612802.3500000002,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.10258978282312356
+2025-02,GROSS_MARGIN,0.7327427994995549,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2025-02,INVENTORY,44.31578947368421,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2025-02,INVOICES,28.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2025-02,NET_SALES,651276.2599999999,599963.7399999998,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.08552603529006629
+2025-02,ORDERS,50.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2025-02,PAYMENTS,125367.26000000001,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2025-02,SUPPLIERS,4.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2025-03,COMPLIANCE,0.7978723404255319,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2025-03,CYCLE_TIME,7.694148936170213,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2025-03,EXPENSES,602822.21,578456.9000000003,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.0421212194028625
+2025-03,GROSS_MARGIN,0.7026709939552555,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2025-03,INVENTORY,46.72093023255814,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2025-03,INVOICES,24.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2025-03,NET_SALES,596160.84,628544.0,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,-0.05152091182160681
+2025-03,ORDERS,43.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2025-03,PAYMENTS,99995.33,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2025-03,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2025-04,COMPLIANCE,0.7877984084880637,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2025-04,CYCLE_TIME,7.352785145888594,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2025-04,EXPENSES,545058.84,513846.25,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.06074305300466816
+2025-04,GROSS_MARGIN,0.8503684069238557,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2025-04,INVENTORY,46.06666666666667,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2025-04,INVOICES,36.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2025-04,NET_SALES,724538.5,611544.99,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.18476728915725402
+2025-04,ORDERS,54.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2025-04,PAYMENTS,102997.25,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2025-04,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2025-05,COMPLIANCE,0.7968337730870713,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2025-05,CYCLE_TIME,7.744063324538258,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2025-05,EXPENSES,590579.3000000002,591124.1999999998,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,-0.0009218028969202652
+2025-05,GROSS_MARGIN,0.6500016771452573,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2025-05,INVENTORY,43.34782608695652,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2025-05,INVOICES,27.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2025-05,NET_SALES,553619.3100000002,488154.07999999984,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.13410771861212417
+2025-05,ORDERS,47.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2025-05,PAYMENTS,94003.2,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2025-05,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2025-06,COMPLIANCE,0.7857142857142857,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2025-06,CYCLE_TIME,7.711640211640212,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2025-06,EXPENSES,644860.0000000001,606951.6000000003,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.06245703940808422
+2025-06,GROSS_MARGIN,0.8441876072238351,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2025-06,INVENTORY,46.0,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2025-06,INVOICES,22.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2025-06,NET_SALES,659910.41,667390.7799999999,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,-0.01120838079303385
+2025-06,ORDERS,56.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2025-06,PAYMENTS,144264.83000000002,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2025-06,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2025-07,COMPLIANCE,0.8010610079575596,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2025-07,CYCLE_TIME,7.928381962864721,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2025-07,EXPENSES,654224.77,602888.0000000003,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.08515142115948508
+2025-07,GROSS_MARGIN,0.6685117996214766,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2025-07,INVENTORY,44.15217391304348,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2025-07,INVOICES,38.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2025-07,NET_SALES,605743.1599999999,541798.4,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.11802316138253618
+2025-07,ORDERS,50.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2025-07,PAYMENTS,122499.56999999999,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2025-07,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2025-08,COMPLIANCE,0.7718832891246684,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2025-08,CYCLE_TIME,7.663129973474801,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2025-08,EXPENSES,826988.5500000002,759722.9999999997,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.08853957297594063
+2025-08,GROSS_MARGIN,0.6953765661359836,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2025-08,INVENTORY,43.6,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2025-08,INVOICES,27.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2025-08,NET_SALES,831867.42,784230.5,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.060743518646622446
+2025-08,ORDERS,37.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2025-08,PAYMENTS,141342.6,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2025-08,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2025-09,COMPLIANCE,0.7845744680851063,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2025-09,CYCLE_TIME,7.6462765957446805,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2025-09,EXPENSES,765826.81,711481.13,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.07638386699026023
+2025-09,GROSS_MARGIN,0.5490343701660026,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2025-09,INVENTORY,45.60526315789474,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2025-09,INVOICES,28.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2025-09,NET_SALES,784004.36,709675.8699999999,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.10473582820281056
+2025-09,ORDERS,47.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2025-09,PAYMENTS,184157.99000000005,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2025-09,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2025-10,COMPLIANCE,0.7824933687002652,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2025-10,CYCLE_TIME,7.76657824933687,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2025-10,EXPENSES,824951.3100000002,770228.4800000002,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.07104752865019993
+2025-10,GROSS_MARGIN,0.8167544538952726,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2025-10,INVENTORY,43.36,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2025-10,INVOICES,26.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2025-10,NET_SALES,971557.4199999999,811991.0399999999,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.1965124886107118
+2025-10,ORDERS,50.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2025-10,PAYMENTS,151078.01,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2025-10,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2025-11,COMPLIANCE,0.7941952506596306,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2025-11,CYCLE_TIME,7.567282321899736,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2025-11,EXPENSES,873119.9400000001,832159.8600000001,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.04922140801167693
+2025-11,GROSS_MARGIN,0.6600958351640529,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2025-11,INVENTORY,45.48936170212766,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2025-11,INVOICES,31.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2025-11,NET_SALES,822422.55,808474.56,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.017252231164824765
+2025-11,ORDERS,40.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2025-11,PAYMENTS,90512.51,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2025-11,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2025-12,COMPLIANCE,0.7872340425531915,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2025-12,CYCLE_TIME,7.76595744680851,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2025-12,EXPENSES,819820.3899999999,656753.2699999999,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.24829281778833018
+2025-12,GROSS_MARGIN,0.7112831888856461,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2025-12,INVENTORY,46.0,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2025-12,INVOICES,32.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2025-12,NET_SALES,868262.4300000002,718778.28,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.20796976502962797
+2025-12,ORDERS,43.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2025-12,PAYMENTS,162299.3,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2025-12,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2026-01,COMPLIANCE,0.767379679144385,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2026-01,CYCLE_TIME,7.922459893048129,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2026-01,EXPENSES,829334.4899999999,738841.5999999997,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.1224794191339526
+2026-01,GROSS_MARGIN,0.8058376995662703,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2026-01,INVENTORY,45.91304347826087,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2026-01,INVOICES,21.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2026-01,NET_SALES,999177.49,793804.8000000002,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.2587193854206976
+2026-01,ORDERS,47.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2026-01,PAYMENTS,118905.3,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2026-01,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2026-02,COMPLIANCE,0.8116710875331565,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2026-02,CYCLE_TIME,7.787798408488063,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2026-02,EXPENSES,769759.7000000002,679894.1000000002,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.13217587856697086
+2026-02,GROSS_MARGIN,0.6913164080731792,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2026-02,INVENTORY,45.696969696969695,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2026-02,INVOICES,24.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2026-02,NET_SALES,677302.44,591012.0,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.14600454813100233
+2026-02,ORDERS,56.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2026-02,PAYMENTS,121021.62,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2026-02,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2026-03,COMPLIANCE,0.8106666666666666,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2026-03,CYCLE_TIME,7.776,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2026-03,EXPENSES,679421.3400000001,661347.8399999999,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.027328281589307432
+2026-03,GROSS_MARGIN,0.846304062933568,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2026-03,INVENTORY,45.925925925925924,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2026-03,INVOICES,31.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2026-03,NET_SALES,780897.0900000001,725349.0300000001,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.0765811460449598
+2026-03,ORDERS,55.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2026-03,PAYMENTS,88683.39,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2026-03,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2026-04,COMPLIANCE,0.7540106951871658,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2026-04,CYCLE_TIME,7.938502673796791,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2026-04,EXPENSES,638017.92,601120.0800000002,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.06138181243255065
+2026-04,GROSS_MARGIN,0.7393654662505541,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2026-04,INVENTORY,46.31111111111111,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2026-04,INVOICES,27.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2026-04,NET_SALES,754039.64,634613.8500000002,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.18818654840262275
+2026-04,ORDERS,47.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2026-04,PAYMENTS,149480.36,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2026-04,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2026-05,COMPLIANCE,0.85,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2026-05,CYCLE_TIME,7.647368421052631,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2026-05,EXPENSES,1151549.9600000002,596902.2999999999,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.929210123666805
+2026-05,GROSS_MARGIN,0.6950161309305812,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2026-05,INVENTORY,44.108695652173914,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2026-05,INVOICES,45.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2026-05,NET_SALES,705886.12,681397.0700000004,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,0.03593947065255148
+2026-05,ORDERS,49.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2026-05,PAYMENTS,81016.6,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2026-05,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,
+2026-06,COMPLIANCE,0.832,,Cumplimiento,Porcentaje aprobado o en término,approved_or_on_time/records,month,vw_metric_monitoring,Operations,monthly,0.72,1.0,higher,2024-07-01,
+2026-06,CYCLE_TIME,7.68,,Tiempo de ciclo,Días promedio de procesamiento,AVG(cycle_days),month,vw_metric_monitoring,Operations,monthly,1.0,18.0,lower,2024-07-01,
+2026-06,EXPENSES,802088.58,646978.1100000002,Gastos,Suma de egresos aceptados,SUM(amount WHERE metric_type=expense),month,vw_metric_monitoring,Finance,monthly,200000.0,1200000.0,lower,2024-07-01,0.23974608661798416
+2026-06,GROSS_MARGIN,0.7821680670089547,,Margen bruto,"Ventas menos costo imputado, sobre ventas",(sales-margin_input)/sales,month,vw_metric_monitoring,Finance,monthly,0.25,0.55,higher,2024-07-01,
+2026-06,INVENTORY,43.708333333333336,,Inventario promedio,Unidades promedio informadas,AVG(quantity WHERE metric_type=inventory),month,vw_metric_monitoring,Operations,monthly,20.0,80.0,neutral,2024-07-01,
+2026-06,INVOICES,20.0,,Facturas,Cantidad de facturas procesadas,COUNT(record_id WHERE metric_type=invoice),month,vw_metric_monitoring,Finance,monthly,20.0,250.0,neutral,2024-07-01,
+2026-06,NET_SALES,509747.99,644818.8599999999,Ventas netas,Suma de ventas aceptadas,SUM(amount WHERE metric_type=sales),month,vw_metric_monitoring,Commercial Analytics,monthly,500000.0,2500000.0,higher,2024-07-01,-0.20947102880954802
+2026-06,ORDERS,58.0,,Órdenes,Cantidad de registros de orden,COUNT(record_id WHERE metric_type=order),month,vw_metric_monitoring,Operations,monthly,40.0,400.0,higher,2024-07-01,
+2026-06,PAYMENTS,211434.39,,Pagos,Importe total de pagos,SUM(amount WHERE metric_type=payment),month,vw_metric_monitoring,Treasury,monthly,100000.0,1000000.0,neutral,2024-07-01,
+2026-06,SUPPLIERS,5.0,,Proveedores activos,Proveedores únicos con actividad,COUNT(DISTINCT entity_name),month,vw_metric_monitoring,Procurement,monthly,2.0,80.0,neutral,2024-07-01,

@@ -1,0 +1,4 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0008051,2027-02-15,Finanzas,expense,Aseguradora Nova,5079.12,7,6830.91,approved,8,ERP_FIN,Future transaction date,DQ005,2026-04_finanzas.csv,48074a97-385c-41f8-9406-b408ac4a6b2b
+AST-0008002,2026-04-24,Finanzas,invoice,Impuestos,8352.4,17,4847.74,approved,4,ERP_FIN,Duplicate business key,DQ006,2026-04_finanzas.csv,48074a97-385c-41f8-9406-b408ac4a6b2b
+AST-0008022,2026-04-09,Finanzas,payment,Impuestos,6850.56,9,5949.5,on_time,8,ERP_FIN,Duplicate business key,DQ006,2026-04_finanzas.csv,48074a97-385c-41f8-9406-b408ac4a6b2b

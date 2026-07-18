@@ -1,0 +1,3 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0005506,2025-09-15,Compras,order,Orion Tech,-5107.31,14,3997.08,late,5,PROCURE,Negative amount is not allowed,DQ004,2025-09_compras.csv,fceec308-9373-4f91-8dd3-69686abc85b9
+AST-0005419,2025-09-18,Compras,expense,Pampa Logistics,9111.25,2,7994.17,on_time,1,PROCURE,Duplicate business key,DQ006,2025-09_compras.csv,fceec308-9373-4f91-8dd3-69686abc85b9

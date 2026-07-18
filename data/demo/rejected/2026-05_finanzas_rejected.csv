@@ -1,0 +1,2 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0008435,2026-05-06,Finanzas,invoice,Servicios Centrales,5114.14,1,4983.62,approved,6,ERP_FIN,Duplicate business key,DQ006,2026-05_finanzas.csv,4dcf273b-4201-4301-9c46-cc2f290f9239

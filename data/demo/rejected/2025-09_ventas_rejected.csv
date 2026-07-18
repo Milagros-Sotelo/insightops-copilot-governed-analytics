@@ -1,0 +1,2 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0005527,2025-09-15,Ventas,order,Cliente Boreal,3017.97,4,3997.08,on_time,8,CRM,Duplicate business key,DQ006,2025-09_ventas.csv,93fb8304-e212-4222-80d4-604011600346

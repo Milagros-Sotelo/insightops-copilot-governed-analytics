@@ -1,0 +1,4 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0007153,2026-01-19,Operaciones,compliance,Centro Sur,-1415.98,17,851.2,pending,13,WMS,Negative amount is not allowed,DQ004,2026-01_operaciones.csv,604a614b-d8e4-45af-b6bd-8867319c7de1
+AST-0007175,2026-01-25,Operaciones,inventory,Centro Sur,-2894.14,40,2675.2,on_time,10,WMS,Negative amount is not allowed,DQ004,2026-01_operaciones.csv,604a614b-d8e4-45af-b6bd-8867319c7de1
+AST-0007142,2026-01-03,Operaciones,inventory,Centro Norte,2553.85,46,2675.2,late,9,WMS,Duplicate business key,DQ006,2026-01_operaciones.csv,604a614b-d8e4-45af-b6bd-8867319c7de1

@@ -1,0 +1,2 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0001431,2024-10-14,Operaciones,cycle_time,,1427.8,14,1044.29,pending,14,WMS,Required field is missing,DQ001,2024-10_operaciones.csv,f52ca5e9-b195-465e-b0ae-c32258b18a7a

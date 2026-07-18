@@ -1,0 +1,2 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0006095,2025-11-16,Finanzas,invoice,Aseguradora Nova,9797.85,1,5789.86,on_time,6,ERP_FIN,Duplicate business key,DQ006,2025-11_finanzas.csv,c3c8a990-ba91-4b52-af9d-388fe520a5a4

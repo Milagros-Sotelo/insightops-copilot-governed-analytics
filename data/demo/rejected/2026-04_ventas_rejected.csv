@@ -1,0 +1,2 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0008184,2026-04-22,Ventas,sales,Mercado Sur,-18281.83,7,14102.53,late,5,CRM,Negative amount is not allowed,DQ004,2026-04_ventas.csv,bced8660-49b1-4177-ba45-b2bf2e4c4752

@@ -1,0 +1,4 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0008292,2026-04-09,Operaciones,compliance,,759.56,2,771.23,on_time,8,WMS,Required field is missing,DQ001,2026-04_operaciones.csv,cc3e894d-6733-453d-a845-7ab64c8d65a0
+AST-0008295,2026-04-02,Operaciones,compliance,,495.32,11,771.23,on_time,11,WMS,Required field is missing,DQ001,2026-04_operaciones.csv,cc3e894d-6733-453d-a845-7ab64c8d65a0
+AST-0008346,2027-02-15,Operaciones,compliance,Hub Oeste,396.97,10,771.23,on_time,13,WMS,Future transaction date,DQ005,2026-04_operaciones.csv,cc3e894d-6733-453d-a845-7ab64c8d65a0

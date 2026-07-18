@@ -1,0 +1,2 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0007836,2026-03-12,Ventas,order,Casa Nativa,-7483.46,15,3444.52,pending,6,CRM,Negative amount is not allowed,DQ004,2026-03_ventas.csv,828d550c-c411-4451-9353-fddf87f15769

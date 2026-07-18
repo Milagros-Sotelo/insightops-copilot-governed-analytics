@@ -1,0 +1,38 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: insightops
+      POSTGRES_USER: insightops
+      POSTGRES_PASSWORD: insightops
+    ports: ["5432:5432"]
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U insightops"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+  api:
+    build: .
+    command: uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
+    environment:
+      DATABASE_URL: postgresql+psycopg://insightops:insightops@postgres:5432/insightops
+      INSIGHTOPS_DATA_DIR: data/demo
+      LLM_PROVIDER: disabled
+    ports: ["8000:8000"]
+    volumes: [".:/app"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+  dashboard:
+    build: .
+    command: streamlit run app/streamlit_app.py --server.address 0.0.0.0 --server.port 8501
+    environment:
+      INSIGHTOPS_DATA_DIR: data/demo
+    ports: ["8501:8501"]
+    volumes: [".:/app"]
+volumes:
+  pgdata:
+

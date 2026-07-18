@@ -1,0 +1,4 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0006940,2026-01-27,Compras,expense,Orion Tech,-10858.96,2,7539.2,approved,2,PROCURE,Negative amount is not allowed,DQ004,2026-01_compras.csv,ac368535-3af5-4f61-a4cb-81c82ec9ea34
+AST-0006987,2026-01-22,Compras,order,Norte Industrial,-5306.98,1,3769.6,on_time,5,PROCURE,Negative amount is not allowed,DQ004,2026-01_compras.csv,ac368535-3af5-4f61-a4cb-81c82ec9ea34
+AST-0007009,2026-01-26,Compras,expense,,4140.18,1,7539.2,approved,9,PROCURE,Required field is missing,DQ001,2026-01_compras.csv,ac368535-3af5-4f61-a4cb-81c82ec9ea34

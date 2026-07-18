@@ -1,0 +1,2 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0006796,2025-12-06,Operaciones,compliance,,685.76,8,893.37,approved,18,WMS,Required field is missing,DQ001,2025-12_operaciones.csv,c5e2d828-2a0b-4d8c-825d-1780ead3d676

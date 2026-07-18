@@ -1,0 +1,2 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0008969,2026-06-04,Ventas,margin_input,,9929.26,10,8635.97,on_time,1,CRM,Required field is missing,DQ001,2026-06_ventas.csv,b3709e9d-92dd-4583-b039-d311081c02a1

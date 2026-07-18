@@ -1,0 +1,18 @@
+{
+  "project": "InsightOps Copilot",
+  "company": "Asteria Services",
+  "seed": 20260717,
+  "months": 24,
+  "max_file_mb": 25,
+  "row_limit": 200,
+  "query_timeout_seconds": 8,
+  "approved_views": [
+    "vw_control_center", "vw_quality_summary", "vw_metric_monitoring",
+    "vw_anomaly_center", "vw_report_review"
+  ],
+  "required_columns": [
+    "record_id", "transaction_date", "area", "metric_type", "entity_name",
+    "amount", "quantity", "budget", "status", "cycle_days", "source_system"
+  ]
+}
+

@@ -1,0 +1,4 @@
+record_id,transaction_date,area,metric_type,entity_name,amount,quantity,budget,status,cycle_days,source_system,rejection_reason,failed_rules,source_file,run_id
+AST-0001129,2027-02-15,Operaciones,inventory,Hub Oeste,6881.05,38,2486.92,approved,12,WMS,Future transaction date,DQ005,2024-09_operaciones.csv,e39616b1-f860-4a76-a409-d3b0fa80d02d
+AST-0001132,2024-09-08,Operaciones,inventory,,4645.48,39,2486.92,on_time,10,WMS,Required field is missing,DQ001,2024-09_operaciones.csv,e39616b1-f860-4a76-a409-d3b0fa80d02d
+AST-0001055,2024-09-28,Operaciones,inventory,Centro Sur,2098.51,41,2486.92,approved,13,WMS,Duplicate business key,DQ006,2024-09_operaciones.csv,e39616b1-f860-4a76-a409-d3b0fa80d02d
