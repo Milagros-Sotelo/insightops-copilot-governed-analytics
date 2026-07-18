@@ -1,10 +1,10 @@
-# InsightOps Copilot
+# ReportMind AI
 
-**Auditable analytics automation, data quality and assisted reporting for Asteria Services.**
+> Governed analytics automation, explainable data quality and human-controlled reporting.
 
-InsightOps Copilot receives monthly CSV/XLSX files from Finance, Procurement, Sales and Operations, maps changing source schemas to one canonical contract, rejects unsafe records, refreshes governed KPI, detects explainable anomalies and prepares a report draft that still requires human approval.
+**ReportMind AI** receives monthly CSV/XLSX files from Finance, Procurement, Sales and Operations, maps changing source schemas to a canonical contract, rejects unsafe records, refreshes governed KPIs, detects explainable anomalies and prepares a report draft that still requires human approval.
 
-This is not a generic chatbot. The center of the product is the data contract, business rules, traceability and security. It runs fully without an external AI API through a deterministic rules-and-templates engine.
+This is not a generic chatbot. The product is built around explicit data contracts, business rules, traceability, security and controlled publication. It can operate without an external AI API through a deterministic rules-and-templates engine.
 
 ## Executed demo
 
